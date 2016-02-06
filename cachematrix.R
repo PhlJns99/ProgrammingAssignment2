@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## makeCacheMatrix - returns a list containing functions to set, get, setsolve and getsolve
+## cacheSolve  - checks if solve result is already stored, if so returns cache of result, if not runs solve sets it using setsolve
 
-## Write a short comment describing this function
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
